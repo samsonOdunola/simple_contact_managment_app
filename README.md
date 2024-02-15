@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Simple Contact Managment App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple contact managment application interface created using react.
+
+## Features
+* **Page Navigation**: This application is comprised of three pages. The navigation is handled by a third party package called react router. This allows user to navigate from page to page seamlesly.
+
+* **State Management**: This application does not use any state managment so data is stored on the browser and is cleared after reloading. In a more sophisticated version of this application, Redux can be used as a state managment tool to ensure data persistence across reloads.
+
+* **Components**: This application has been designed with reusable componets like buttons, navbars and footers.
+
+* **Contact Creation**: Contacts can be created by inuting the contact details and clickiing on the save button afterwards.
+
+* **Editing Contacts**: Contacts that have been saved can also be edited by navigating to the edit page and selecting the contact to be edited. only the first name and last name of a contact entry can be edited.
+
+* **Deleting contact**: Contacts can also be deleted by going to the main page and using the remove button.
 
 ## Available Scripts
 
